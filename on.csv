@@ -1,0 +1,43 @@
+Problem,Time,Space
+
+Loop Detection,n,1
+Sort Bitonic DLL,n log n,1
+Segregate Even Odd LL,n,1
+Merge sort DLL,n log n,log n
+Min Stack,1,1
+Celebrity,n,1
+
+Iterative Hanoi,2^n,1
+Recursive Hanoi,2^n,n
+Stock Span,n,n
+Priority Q DLL,"insert - n, rest - 1",n
+Sort w/o Space,n^2,1
+Sliding Window,n,winLen
+Stack Permutations,n,n
+
+Recover BST,n,1
+Views of Tree,n,n
+Vertical Order Traversal,n log n,n
+Boundary Traversal,n,n
+
+BFS,V + E,V
+DFS,V + E,V
+Dial's,E + V log V,V + E
+Bellman-Ford,V * E,V
+
+Topological Sort,V * E,V
+Heap Sort,n log n,1
+
+LCS,n * m,n * m
+LIS,n^2,n
+LBS,n^2,n
+LPS,n^2,n^2
+Subset Sum,n * T,n * T
+Knapsack,n * Wt,n * Wt
+Traveling Salesman,n^2 * 2^n,n * 2^n
+Coin Change,n * T,n * T
+Shortest Common Super ,n * m,n * m
+Levenshtein,n * m,n * m
+Rod Cutting,n^2,n
+Wildcard,n * m,n
+Pots of Gold,n^2,n^2

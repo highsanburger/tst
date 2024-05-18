@@ -8,7 +8,7 @@ public class LIS {
         // for (int i = 0; i < n; i++) {
         // in[i] = sc.nextInt();
         // }
-        int[] in = { 10, 22, 33, 50, 60, 80 };
+        int[] in = { 10, 9, 2, 5, 3, 7, 101, 18 };
         // int[] in = { 0, 1, 3, 2, 4 };
         System.out.println(LIS_DP(in));
         // System.out.println(LIS_Rec(in, 0, in.length, Integer.MIN_VALUE));
@@ -29,7 +29,9 @@ public class LIS {
             }
         }
 
-        return dp[0];
+        Arrays.sort(dp);
+
+        return dp[arr.length - 1];
         // for (int row = 0; row < dp.length; row++) {
         // System.out.print(dp[row] + " ");
         // }
